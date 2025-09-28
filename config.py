@@ -7,7 +7,9 @@ SEED = 42
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # model
-MODEL_ID = "facebook/hubert-large-ls960-ft"
+MODEL_ID = "facebook/wav2vec2-conformer-rel-pos-large-960h-ft"
+# MODEL_ID = "facebook/data2vec-audio-large-960h"
+# MODEL_ID = "facebook/hubert-large-ls960-ft"
 
 # data
 EEG_n_chan = 61                     # number of EEG channels
